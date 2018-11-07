@@ -1,0 +1,9 @@
+ <image style="width:750rpx;height:380rpx"src='http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACDinqzWBSis__b_ATDuBTj8AkBm.png'></image>
+  <view class='hr'></view>
+    <view class='cjy'>-\r出境游\r-</view>
+    <view class='lv'>
+      <view class='lvbox' wx:for="{{lista}}" wx:key="index">
+        <image src='{{item.image}}'></image>
+        <view>{{item.name}}</view>       
+      </view>
+    </view>

@@ -1,0 +1,57 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.pt15{
+  padding-top: 15px;
+}
+.hr{
+  height: 20rpx;
+  background-color: #f4f4f4;
+}
+.cjy{
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 15px;
+  margin:15px 0;
+  border-bottom: 1px solid #f4f4f4;
+}
+.lv{
+  width: 680rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+.lvbox{
+  display: inline-block;
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.lvbox image{
+  width: 330rpx;
+  height: 220rpx;
+}
+.lvbox view{
+  width: 330rpx;
+    overflow: hidden;
+    white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.btn{
+  width: 300rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: blue;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 25px;
+}

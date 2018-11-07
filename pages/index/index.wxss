@@ -1,0 +1,59 @@
+.center{
+  margin: 0 auto;
+  text-align: center;
+  width: 680rpx;
+}
+.con{
+  width: 680rpx;
+  height: 400rpx;
+}
+.nav{
+  margin-top: 15px;
+  display: flex;
+  justify-content:space-between;
+  padding-bottom: 20px;
+}
+.bar{
+  width: 210rpx;
+  height: 260rpx;
+  color: #fff;
+}
+.bar1{
+    background:url(http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACD9l6zWBSiC0rVsMNIBOIQCQGY.png) no-repeat ;
+  background-size: 210rpx 260rpx;
+}
+.bar2{
+    background:url(http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACD8l6zWBSj0so6LAjDSATiEAkBm.png) no-repeat ;
+  background-size: 210rpx 260rpx;
+}
+.bar3{
+    background:url(http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACD-l6zWBSiq8bV4MNIBOIQCQGY.png) no-repeat ;
+  background-size: 210rpx 260rpx;
+}
+.bar text{
+  display: block;
+}
+/* 近期推荐 */
+.scroll-box{
+  margin-top: 15px;
+  white-space: nowrap;
+  border-top: 1px solid #f4f4f4;
+  height:340rpx; 
+}
+.scroll{
+  margin: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 267rpx;
+  border: 1px solid #f4f4f4;
+  font-size: 12px;
+}
+.scroll image{
+  width: 267rpx;
+  height: 199rpx;
+}
+/* 旅游攻略 */
+.lvb{
+  margin-top: 15px;
+  border-top: 1px solid #f4f4f4; 
+}

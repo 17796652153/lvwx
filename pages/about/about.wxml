@@ -1,0 +1,24 @@
+<view>
+    <image style="width:750rpx;height:380rpx"src='http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACC4n6zWBSjUhqOSAjDuBTj8AkBm.png'></image>
+    <!-- 关于我们 -->
+    <view class='hr'></view>
+    <view class='cjy'>-关于我们-</view>
+  <view style='width:680rpx;margin:0 auto'>
+    <view style='font-size:14px'>xxx国际旅行社有限公司成为一类国际旅游社，主营国内地接、入境接待国内出游、国际出境游、代办签证、修学旅行、商务考察、会务接待等业务项目，公司经营场所400平方米，在职职工100人，设有管理中心、财务中心、国内地接中心、国内出游中心、国际入境中心、中国公民出境中心、网络信息中心等。企业规划和经济实力以及经济效益已在xx市同行业排序前列。</view>
+    <view class='fl1'>
+      <view wx:for="{{list}}" wx:key="index">
+        <view style='font-weight:600;margin-bottom:10px'>{{item.nb}}</view>
+        <view style='font-size:14px'>{{item.xl}}</view>       
+      </view>
+    </view>
+  </view>
+  <!-- 联系我们 -->
+    <view class='hr'></view>
+    <view class='cjy'>-联系我们-</view>
+    <view style='width:680rpx;margin:0 auto;text-align:center'>
+      <view style='font-size:20px;font-style:italic;color:blue;margin-bottom:10px'>000-000000</view>
+      <view style='margin-bottom:10px'>xxx省xxx市xxx县xxx路xxx号</view>
+      <view style='margin-bottom:10px'>contact@fkadjkhsf.co</view>
+      <button class='btn' bindtap='callphone'>立即咨询</button>
+    </view>
+</view>

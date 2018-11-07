@@ -1,0 +1,7 @@
+.fl1{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-bottom: 20px;
+}

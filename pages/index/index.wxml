@@ -1,0 +1,40 @@
+<view class='center'>
+<image class='con'src='http://88853.s81i.faiusr.com/4/102/AFEIlbYFEAQYACDMl6zWBSjsj97CBDCoBTiQA0Bm.png'></image>
+  <view class='nav'>
+      <view class='bar bar1' bindtap='send'>
+        <text>出境游</text>
+        <text>假期出境</text>
+      </view>
+    <view class='bar bar2' bindtap='send'>
+
+        <text>国内游</text>
+        <text>走遍中国</text>
+    </view>
+    <view class='bar bar3' bindtap='send'>
+        <text>周边游</text>
+        <text>周末出游</text>
+    </view>
+  </view>
+</view>
+  <view class='hr'></view>
+  <view class='center pt15'>
+    <text class='jqtj'>-\r近期推荐\r-</text></view>
+  <scroll-view scroll-x="true" class='scroll-box'>
+    <navigator url='../xcap/xcap'>
+      <view wx:for="{{list}}" wx:key="index" class='scroll'>
+        <image src='{{item.image}}'></image>
+        <text>\n{{item.name}}</text>
+      </view>
+    </navigator>
+  </scroll-view>
+  <view class='hr'></view>
+ <view class='center pt15'>
+    <text class='lvgl'>-\r旅游攻略\r-</text></view>
+    <view class='lvb'>
+      <view class='center pt15 lv'>
+          <view wx:for="{{lista}}" wx:key="index" class='lvbox'>
+            <image src='{{item.image}}'></image>
+            <view>{{item.name}}</view>
+          </view>
+      </view>
+    </view>

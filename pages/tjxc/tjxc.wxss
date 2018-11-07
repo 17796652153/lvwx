@@ -1,0 +1,7 @@
+.cjy{
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 15px;
+  margin:15px 0;
+  border-bottom: 1px solid #f4f4f4;
+}

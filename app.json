@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/xcap/xcap",
+    "pages/about/about",
+    "pages/lygl/lygl",
+    "pages/tjxc/tjxc",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#3A82F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/1.png",
+        "selectedIconPath": "pages/images/2.png"
+      },
+      {
+        "pagePath": "pages/tjxc/tjxc",
+        "text": "推荐行程",
+        "iconPath": "pages/images/0000011.png",
+        "selectedIconPath": "pages/images/0000014.png"
+      },
+      {
+        "pagePath": "pages/lygl/lygl",
+        "text": "旅游攻略",
+        "iconPath": "pages/images/0000022.png",
+        "selectedIconPath": "pages/images/0000024.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们",
+        "iconPath": "pages/images/0000042.png",
+        "selectedIconPath": "pages/images/0000044.png"
+      }
+    ]
+  }
+}
